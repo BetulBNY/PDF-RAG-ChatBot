@@ -2,9 +2,9 @@ from fastapi import FastAPI, UploadFile, File, Form, Request
 from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 from typing import List
-from modules .load_vectorstore import load_vectorstore
-from modules.llm import get_llm_chain
-from modules.query_handlers import query_chain
+from .modules.load_vectorstore import load_vectorstore
+from .modules.llm import get_llm_chain
+from .modules.query_handlers import query_chain
 from logger import logger
 
 app = FastAPI(title="RagBot")
