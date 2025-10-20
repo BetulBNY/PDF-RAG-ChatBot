@@ -6,10 +6,13 @@ uvicorn[standard]
 langchain
 langchain-community
 langchain-core
-# yok
 
 # Vector Store
 chromadb
+
+# CPU-only PyTorch for sentence-transformers
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
 
 # Embeddings
 sentence-transformers
@@ -32,4 +35,3 @@ aiofiles
 
 # For install
 # pip install -r requirements.txt
-
