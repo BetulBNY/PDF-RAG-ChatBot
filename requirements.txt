@@ -1,0 +1,35 @@
+# Web Framework
+fastapi
+uvicorn[standard]
+
+# Langchain & Ecosystem
+langchain
+langchain-community
+langchain-core
+# yok
+
+# Vector Store
+chromadb
+
+# Embeddings
+sentence-transformers
+
+# PDF Parsing
+PyPDF  #backend for PyPDFLoader via langchain_community
+
+# Environment Variables
+python-dotenv
+
+# Typing & Utilities
+pydantic
+requests
+
+# Logging
+loguru
+
+# File Uploads
+aiofiles
+
+# For install
+# pip install -r requirements.txt
+

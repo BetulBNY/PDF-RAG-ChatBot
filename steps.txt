@@ -1,0 +1,5 @@
+Steps for starting up the system:
+-- server side (Flask): cd server --> uvicorn main:app --reload 
+-- client side (Streamlit): cd client --> streamlit run app.py  
+
+Then upload your pdf, you can upload more than 1 pdf.
