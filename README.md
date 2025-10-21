@@ -30,7 +30,7 @@ Powered by FastAPI, Streamlit, and Google’s API.
 ---
 
 ## ⚙️ Installation
-
+```bash
 
 1️⃣ **Clone the repository**
 git clone https://github.com/BetulBNY/PDF-RAG-ChatBot.git
